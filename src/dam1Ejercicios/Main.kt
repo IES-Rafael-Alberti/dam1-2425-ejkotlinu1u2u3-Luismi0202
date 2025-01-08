@@ -5,5 +5,6 @@ fun main() {
 
     when (opcion) {
         1 -> dam1Ejercicios.Ejercicios_U1.main()
+        2-> dam1Ejercicios.Ejercicios_U2.main()
     }
 }
