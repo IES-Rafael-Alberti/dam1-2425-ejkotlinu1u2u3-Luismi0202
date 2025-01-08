@@ -1,11 +1,12 @@
 package dam1Ejercicios.Ejercicios_U2.Condicionales
 
 fun comprobarNum(valor: String): Boolean {
-    val valorLimpio = valor.trim()
-    return if (valorLimpio.startsWith("-")) {
-        valorLimpio.removePrefix("-").all { it.isDigit() }
-    } else {
-        valorLimpio.all { it.isDigit() }
+    try{
+        valor.toInt()
+        return true
+    }
+    catch(e:Exception){
+        return false
     }
 }
 
