@@ -39,5 +39,6 @@ fun main() {
     val apartado = seleccionar(3)
     when(apartado){
         1-> dam1Ejercicios.Ejercicios_U2.Condicionales.main()
+        2-> dam1Ejercicios.Ejercicios_U2.Iterativas.main()
     }
 }

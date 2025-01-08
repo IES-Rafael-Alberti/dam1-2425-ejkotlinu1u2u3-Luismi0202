@@ -13,7 +13,11 @@ fun main(){
             else{
                 when(ejercicio){
                     0-> salida = true
-
+                    2-> ejercicio2Iterativas()
+                    4-> ejercicio4Iterativas()
+                    6-> ejercicio6Iterativas()
+                    7-> ejercicio7Iterativas()
+                    8-> ejercicio8Iterativas()
                 }
             }
         }
