@@ -18,6 +18,11 @@ fun main(){
                     6-> ejercicio6Iterativas()
                     7-> ejercicio7Iterativas()
                     8-> ejercicio8Iterativas()
+                    13-> ejercicio13Iterativas()
+                    15-> ejercicio15Iterativas()
+                    18-> ejercicio18Iterativas()
+                    19-> ejercicio19Iterativas()
+                    25-> ejercicio25Iterativas()
                 }
             }
         }
