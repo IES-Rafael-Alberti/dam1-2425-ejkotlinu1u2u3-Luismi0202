@@ -34,7 +34,7 @@ fun main() {
                 26 -> ejercicio26()
                 27 -> ejercicio27()
                 0 -> {
-                    println("Saliendo del programa... ¡Adiós!")
+                    println("Saliendo a Main principal... ¡Espero que hayas disfrutado la U1!")
                     seguir = false
                 }
                 else -> println("Por favor, elige un número válido del menú.")

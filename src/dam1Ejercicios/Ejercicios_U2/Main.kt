@@ -37,8 +37,15 @@ fun seleccionar(max:Int):Int{
 fun main() {
     mostrarMenu()
     val apartado = seleccionar(3)
+    var seguir = true
+    while(seguir == true){
     when(apartado){
+        0-> {
+            println("Saliendo de los ejercicios de la U2... ¡Espero que te hayan gustado!")
+            seguir = false
+        }
         1-> dam1Ejercicios.Ejercicios_U2.Condicionales.main()
         2-> dam1Ejercicios.Ejercicios_U2.Iterativas.main()
+        }
     }
 }
