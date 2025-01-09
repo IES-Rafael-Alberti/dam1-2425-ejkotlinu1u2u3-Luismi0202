@@ -40,10 +40,10 @@ fun seleccionar(max:Int):Int{
 
 
 fun main_U3() {
-    mostrarMenu()
-    val apartado = seleccionar(3)
     var seguir = true
     while(seguir == true){
+        mostrarMenu()
+        val apartado = seleccionar(3)
         when(apartado){
             0-> {
                 println("Saliendo de los ejercicios de la U3... ¡Espero que te hayan gustado!")
