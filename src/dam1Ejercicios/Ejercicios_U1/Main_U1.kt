@@ -11,7 +11,7 @@ fun mostrarMenu() {
     )
 }
 
-fun main() {
+fun main_U1() {
     var seguir = true
 
     while (seguir) {

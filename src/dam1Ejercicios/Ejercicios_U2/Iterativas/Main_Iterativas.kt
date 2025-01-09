@@ -1,8 +1,8 @@
 package dam1Ejercicios.Ejercicios_U2.Iterativas
 
-fun main(){
+fun Iterativas(){
     var salida = false
-    while(!salida){
+    while(salida == false){
         println("PULSE 0 PARA SALIR")
         println("Ejercicios Iterativas: 2,4,6,7,8,13,15,18,19 y 25")
         println("Selecciona uno de los ejercicios >> ")

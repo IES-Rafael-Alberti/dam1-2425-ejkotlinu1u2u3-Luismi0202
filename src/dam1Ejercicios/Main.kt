@@ -1,5 +1,9 @@
 package dam1Ejercicios
 
+import dam1Ejercicios.Ejercicios_U1.main_U1
+import dam1Ejercicios.Ejercicios_U2.main_U2
+import dam1Ejercicios.Ejercicios_U3.main_U3
+
 fun mostrarMenu() {
     println("SELECCIONA UNA DE LAS OPCIONES")
     println("1-> Ejercicios de la Unidad 1")
@@ -24,8 +28,9 @@ fun main() {
                 println("Saliendo...")
                 seguir = false
             }
-            1 -> dam1Ejercicios.Ejercicios_U1.main()
-            2 -> dam1Ejercicios.Ejercicios_U2.main()
+            1 -> main_U1()
+            2 -> main_U2()
+            3-> main_U3()
             else -> println("Opción no válida. Por favor, selecciona una opción entre 0 y 3.")
         }
     }
